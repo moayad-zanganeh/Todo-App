@@ -560,6 +560,10 @@ video {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .h-4 {
   height: 1rem;
 }
