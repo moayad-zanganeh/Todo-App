@@ -1,3 +1,7 @@
 let addTr = document.getElementById('addtr');
 
-addTr.addEventListener('click', () => {});
+let modal = document.getElementById('modal');
+
+addTr.addEventListener('click', () => {
+  modal.classList.remove('hidden');
+});
